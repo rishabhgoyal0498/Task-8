@@ -1,0 +1,38 @@
+import matplotlib.pyplot as plt
+
+# Create a histogram
+plt.hist(data, bins=5, edgecolor='k')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.title('Histogram')
+plt.show()
+
+# Create a scatter plot
+plt.scatter(x, y, c='b', marker='o', label='Data')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Scatter Plot')
+plt.legend()
+plt.show()
+
+# Create a vertical bar chart
+plt.bar(categories, values, color='skyblue')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Vertical Bar Chart')
+plt.show()
+
+
+# Create a box plot
+plt.boxplot(data)
+plt.ylabel('Value')
+plt.title('Box Plot')
+plt.show()
+
+# Create a line chart
+plt.plot(x, y, marker='o', linestyle='-', color='b', label='Data')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Line Chart')
+plt.legend()
+plt.show()
